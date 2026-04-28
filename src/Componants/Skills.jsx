@@ -13,8 +13,6 @@ import { SiMongodb, SiExpress, SiTailwindcss, SiBootstrap } from "react-icons/si
         { name: "MongoDB", icon: <SiMongodb color="#47A248" /> },
         { name: "GitHub", icon: <FaGithub color="#19191aff" /> },
         { name: "Java", icon: <FaJava color="#007396" /> },
-        { name: "Python", icon: <FaPython color="#3776AB" /> },
-        { name: "Docker", icon: <FaDocker color="#2496ED" /> },
     ];
 
     return (
