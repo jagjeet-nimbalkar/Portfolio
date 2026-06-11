@@ -11,8 +11,8 @@ export default function Hero() {
                     <p className="lead">
                         <Typewriter
                             words={[
-                                "MERN Stack Developer 💻",
-                                "Building modern and scalable web applications 🚀"
+                                "Software Developer 💻",
+                                "Passionate About Java Full Stack Development 🚀"
                             ]}
                             loop={0}
                             cursor

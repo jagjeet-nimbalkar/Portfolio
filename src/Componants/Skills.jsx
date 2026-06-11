@@ -1,18 +1,24 @@
 import React from "react";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPython, FaGithub, FaDocker, FaJava } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiTailwindcss, SiBootstrap } from "react-icons/si"; export default function Skills() {
+import { SiMongodb, SiExpress, SiTailwindcss, SiBootstrap, SiMysql,SiHibernate   } from "react-icons/si"; 
+import { BiLogoSpringBoot } from "react-icons/bi";
+
+export default function Skills() {
     const skills = [
         { name: "HTML", icon: <FaHtml5 color="#E34F26" /> },
         { name: "CSS", icon: <FaCss3Alt color="#1572B6" /> },
+        { name: "JavaScript", icon: <FaJs color="#F7DF1E" /> },
         { name: "Bootstrap", icon: <SiBootstrap color="#7952B3" /> },
         { name: "Tailwind", icon: <SiTailwindcss color="#38BDF8" /> },
-        { name: "JavaScript", icon: <FaJs color="#F7DF1E" /> },
         { name: "React", icon: <FaReact color="#61DAFB" /> },
-        { name: "Node.js", icon: <FaNodeJs color="#339933" /> },
-        { name: "Express", icon: <SiExpress color="#000000" /> },
-        { name: "MongoDB", icon: <SiMongodb color="#47A248" /> },
-        { name: "GitHub", icon: <FaGithub color="#19191aff" /> },
         { name: "Java", icon: <FaJava color="#007396" /> },
+<<<<<<< HEAD
+=======
+        { name: "SpringBoot", icon: <BiLogoSpringBoot color="#339933" /> },
+        {name:"Hibernate",icon:<SiHibernate color="#513117"/>},
+        { name: "MySql", icon: <SiMysql color="#000000" /> },
+        { name: "GitHub", icon: <FaGithub color="#19191aff" /> },
+>>>>>>> 4b43ea0 (Update portfolio)
     ];
 
     return (
