@@ -12,13 +12,10 @@ export default function Skills() {
         { name: "Tailwind", icon: <SiTailwindcss color="#38BDF8" /> },
         { name: "React", icon: <FaReact color="#61DAFB" /> },
         { name: "Java", icon: <FaJava color="#007396" /> },
-<<<<<<< HEAD
-=======
         { name: "SpringBoot", icon: <BiLogoSpringBoot color="#339933" /> },
         {name:"Hibernate",icon:<SiHibernate color="#513117"/>},
         { name: "MySql", icon: <SiMysql color="#000000" /> },
         { name: "GitHub", icon: <FaGithub color="#19191aff" /> },
->>>>>>> 4b43ea0 (Update portfolio)
     ];
 
     return (
