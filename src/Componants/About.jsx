@@ -10,11 +10,11 @@ export default function About() {
             <h2 className="mb-3">Jagjeet Nimbalkar</h2>
             <p>
               Hi, I'm <strong>Jagjeet Nimbalkar</strong>, a passionate{" "}
-              <strong>Java Full Stack Developer</strong>
+              <strong>Java Full Stack Developer</strong>{" "}
               and final-year <strong>
                 Computer Science &amp; Engineering
               </strong>{" "}
-              student at
+              student at {" "}
               <strong>Bhagwant Institute of Technology, Barshi</strong>. I have
               a strong foundation in ,{" "}
               <strong>Core Java, Advanced Java</strong> (JDBC, Servlet, JSP),{" "}
